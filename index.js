@@ -7,9 +7,7 @@ function driversWithRevenueOver(drivers, revenue) {
 
 function driverNamesWithRevenueOver(drivers, revenue) {
   return drivers.map(function(driver) {
-    const d = driver.revenue > revenue;
-    d;
-    debugger;
-    return g;
+    driver.revenue > revenue;
+    return driver.name;
   });
 }
