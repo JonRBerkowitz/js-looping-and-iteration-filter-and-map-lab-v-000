@@ -16,7 +16,6 @@ function exactMatch(drivers, attribute) {
     let match = false;
 
     for (const key in attribute) {
-      debugger;
         match = driver[key] === attribute[key];
     }
 
