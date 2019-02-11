@@ -10,6 +10,6 @@ function driverNamesWithRevenueOver(drivers, revenue) {
     const d = driver.revenue > revenue;
     const a = d.name;
     debugger;
-    return a
+    return a;
   });
 }
